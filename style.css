@@ -1,0 +1,164 @@
+body {
+justify-content: center;
+align-items: center;
+display: flex;
+}
+
+.container {
+flex-direction: row;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 70vw;
+height: 100vh;
+}
+
+.CaixaChamado01 {
+     width: 70em;
+     height: 9em;
+     margin-bottom: 21em;
+}
+
+.CaixaChamado02 {
+     width: 70em;
+     height: 9em;
+     margin-bottom: 0em;
+}
+
+.CaixaChamado03 {
+     margin-bottom: -29em;
+     width: 70em;
+     height: 17em;
+}
+
+#chamado01 {
+border: solid 1px black;
+border-radius: 4px;
+margin-bottom: 34em;
+padding: 5px;
+width: 70em;
+flex-direction: row;
+display: flex;
+align-content: center;
+position: fixed;
+}
+
+.ChamadoGeral {
+border: solid 1px black;
+border-radius: 4px;
+padding: 5px;
+display: flex;
+align-content: center;
+position: fixed;
+
+
+}
+
+
+
+h1{
+     color: white;
+     font-size: 20px;
+}
+
+
+.tituloGeral{
+     margin-left: -5px;
+     margin-top: -5px;
+     height: 38px;
+     width: 1110px;
+     align-items: center;
+     background-color: #5b5bff;
+     display: flex;
+     padding: 10px;
+     border-radius: 3px 3px 0px 0px;
+     position: fixed;
+}
+select:focus{
+     transition: 500ms;
+     /* border: blue  10px solid; */
+     box-shadow: blue 0 0 5px 4px;
+}
+
+select{
+     border-radius: 6px;
+     transition: 500ms;
+     cursor: pointer;
+     font-size: 20px;
+     background: rgb(82, 82, 228);
+     color: white;
+    outline: 0;
+ 
+}
+
+.SelectProcess01{
+
+     margin-left: 5px;
+     width: 12em;
+     height: 2em;
+    
+}
+
+.SelectProcess02{
+
+     margin-left: 5px;
+     width: 13em;
+     height: 2em;
+    
+}
+
+option{
+     margin-top: -5px;
+     color: white;
+     background-color: blue;
+     border-radius: 6px;
+}
+
+.ProcessoGeral{
+     font-size: 19px;
+     height: 11em;
+     width: 57em;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.labelGeral{
+     margin-left: 8px;
+}
+
+.inputProcess01{
+     margin-left: 5px;
+     height: 2em;
+     outline: 0;
+}
+
+.areaText{
+     margin-left: -153px;
+     margin-top: 10px;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+     position: fixed;
+}
+
+.EntradaTitulo{
+
+     margin-left: -8em;
+    margin-top: -49px;
+    position: fixed;
+    
+
+}
+
+.InputTitulo{
+
+     width: 62em;
+
+}
+
+.AreaText01{
+     margin-top: 95px;
+     width: 800px;
+     height: 100px;
+}

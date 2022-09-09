@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>HelpDesk Suporte</title>
+          <script type="text/typescript" src="script.ts"></script>
+          <link rel="stylesheet" href="style.css">  
+</head>
+<body style="font-family: Arial, Helvetica, sans-serif;">
+          
+          <div class="container">
+
+               <label id="chamado01"> Chamado:   <strong> 223322 </strong> </label>
+ 
+               <div class="CaixaChamado01 ChamadoGeral"> 
+                    <div id="titulo01" class="tituloGeral">
+                         <h1>Produto/Processo/Módulo</h1>
+                    </div>
+                    <div class="Process01 ProcessoGeral">
+                         
+                         <label class="labelGeral">Produto:</label>
+                         <select class="SelectProcess01">
+                              <option value="" disabled selected>Escolha um produto:</option>
+                              <option value="1" >Steam</option>
+                              <option value="2">Uplay</option>
+                              <option value="3">Origin</option>
+                         </select>
+                         
+                         <label class="labelGeral">Módulo:</label>
+                         <select class="SelectProcess01">
+                              <option disabled selected>Escolha um módulo:</option>
+                              <option>Steam</option>
+                              <option>Uplay</option>
+                              <option>Origin</option>
+                         </select>
+                         <label class="labelGeral">Processo:</label>
+                         <select class="SelectProcess01">
+                              <option disabled selected>Escolha um processo:</option>
+                              <option>Defeito</option>
+                              <option>Reclamação</option>
+                              <option>Devolução</option>
+                         </select>
+                    </div>
+               </div>
+
+                    
+               <div class="CaixaChamado02 ChamadoGeral"> 
+                    <div id="titulo02" class="tituloGeral">
+                         <h1>Natureza/Severidade/Versão</h1>
+                    </div>
+                    <div class="Process02  ProcessoGeral">
+                        
+                         <label class="labelGeral">Natureza:</label>
+                         <input type="text" placeholder="Selecione uma natureza" class="inputProcess01">
+
+
+
+                         <label class="labelGeral">Versão de Origem:</label>
+                         <select class="SelectProcess02">
+
+                              <option>Escolha uma versão</option>
+                              <option>1.5</option>
+                              <option>1.7</option>
+                              <option>1.8.2</option>
+                              <option>1.9.2</option>
+                              <option>1.10.3</option>
+                         </select>
+                         <label class="labelGeral">Severidade:</label>
+                         <select class="SelectProcess02">
+                              <option>Escolha uma Severidade</option>
+                              <option>Leve</option>
+                              <option>Regular</option>
+                              <option>Alto</option>
+                         </select>
+                       </div>
+                       
+               </div>
+
+               
+               <div class="CaixaChamado03 ChamadoGeral"> 
+                    <div id="titulo03" class="tituloGeral" >
+                         <h1>Título/Descrição</h1>
+                    </div>
+                    <div class="Process03  ProcessoGeral">
+               
+                         <div class="EntradaTitulo">
+
+                              <label>Título:</label>
+                              <input class="InputTitulo" type="text" >
+         
+                         </div>
+                     
+                     <div class="areaText">
+               
+                         <label>Descrição:</label>
+                     <textarea class="AreaText01">
+
+                     </textarea>
+                    </div>
+                    
+               </div>
+
+               </div>
+
+
+          </div>
+
+
+</body>
+</html>
